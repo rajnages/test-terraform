@@ -1,0 +1,110 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually used for local development
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore lock files
+.terraform.lock.hcl
+
+# Ignore SSH keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.backup
+
+# Ignore generated files
+dist/
+build/
+
+# Ignore local development files
+dev/
+local/
+
+# Ignore test files
+test/
+
+# Ignore documentation
+docs/
+
+# Ignore package files
+*.zip
+*.tar.gz
+
+# Ignore node modules if using JavaScript/Node.js
+node_modules/
+
+# Ignore Python virtual environments
+venv/
+.venv/
+.python-version
+
+# Ignore Ansible files if using with Terraform
+*.retry
+
+# Ignore Kubernetes generated files if using with Terraform
+kubeconfig
+*.kubeconfig
+
+# Ignore AWS credentials
+.aws/
+aws.credentials
+
+# Ignore any secrets files
+*secrets*
+*secret*
+*.secrets
+*.secret
+
+# Ignore plan files
+plan.out
+*.plan
+
+# Ignore variable files except examples
+!example.tfvars
+!sample.tfvars
+
+# Ignore backend configuration
+backend.hcl
